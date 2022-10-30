@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background-color: rgb(205, 223, 229);
+    border: 2.5px solid;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+section {
+    border-bottom: solid white 3px;
+}
+
+input {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 28px;
+}
+
+button {
+    border-radius: 15px;
+    display: block;
+    padding: 20px 106px;
+    margin: 10px 0;
+    background-color: rgb(55, 132, 157);
+    color: rgb(31, 31, 146);
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(145, 213, 234);
+}
